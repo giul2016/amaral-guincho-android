@@ -14,7 +14,7 @@ O Programa pretende unificar simplicidade com potência,
 contando com uma interface simples, intuitiva e roubusta, mas não deixando de lado as implementações corretas de código, apresentado um programa totalmente comentado, facilitando assim sua reparabilidade.
 
 ## Funcionamento
-
+Ao iniciar o app, o usuário se depara com uma tela de boas vindas, onde é pessível decidir qual será a próxima ação. Na parte inferior, existe uma barra de utilidades, onde o usuário pode selecionar uma página, ou simplesmente realizar um gesto de deslisamento, como arrastar o dedo de uma extremidade para outra. Ao logar como um funcionário existem 4 telas principais, são elas `contas`, `pesquisa`, `viagens`, `seguro`. Ao logar como cliente, uma intuitiva tela para consulta de serviços aparece, possibilitando o usiario
 
 
 ## Função
@@ -34,4 +34,4 @@ contando com uma interface simples, intuitiva e roubusta, mas não deixando de l
 
 
 ![[io.Etep](https://github.com/ioetep)](https://github.com/ioetep.png)
-> < > com ♥︎ [io.Etep](https://github.com/ioetep)
+> **< >** com **♥︎** [io.Etep](https://github.com/ioetep)
