@@ -30,7 +30,12 @@ Ao iniciar o app, o usuário se depara com uma tela de boas vindas, onde é pess
 >  - Manipular dados da `Ordem de Serviço`
 >  - Manipular dados da `Viagem`
 
-
+## Telas
+ Principais Telas:
+ - `Contas`
+ - `Pesquisa`
+ - `Viagens`
+ - `Seguro`
 
 
 ![[io.Etep](https://github.com/ioetep)](https://github.com/ioetep.png)
