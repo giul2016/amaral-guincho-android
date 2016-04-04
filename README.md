@@ -14,7 +14,7 @@ O Programa pretende unificar simplicidade com potência,
 contando com uma interface simples, intuitiva e roubusta, mas não deixando de lado as implementações corretas de código, apresentado um programa totalmente comentado, facilitando assim sua reparabilidade.
 
 ## Funcionamento
-Ao iniciar o app, o usuário se depara com uma tela de boas vindas, onde é pessível decidir qual será a próxima ação. Na parte inferior, existe uma barra de utilidades, onde o usuário pode selecionar uma página, ou simplesmente realizar um gesto de deslisamento, como arrastar o dedo de uma extremidade para outra. Ao logar como um funcionário existem 4 telas principais, são elas `contas`, `pesquisa`, `viagens`, `seguro`. Ao logar como cliente, uma intuitiva tela para consulta de serviços aparece, possibilitando o usiario
+Ao iniciar o aplicativo, uma notável tela indicando o início do programa aparece, em seguida, o usuário se depara com uma intuitiva tela de login, onde ele poderá se autenticar ultilizando seu login e sua senha. Após autenticado, a tela mais relevante é `Home`, onde 'se possivel selecionar uma das mais variadas funçoes que esse roubusto aplicativo é capaz de realizar, sendo elas: `Ordem de Serviço`, onde é possível consultar uma ordem de serviço, `Frota`, onde é possível ter uma visáo geral da frota. `Clientes`, onde o foco é realizar diversas consultas em clientes variados.
 
 
 ## Função
@@ -31,11 +31,7 @@ Ao iniciar o app, o usuário se depara com uma tela de boas vindas, onde é pess
 >  - Manipular dados da `Viagem`
 
 ## Telas
- Principais Telas:
- - `Contas`
- - `Pesquisa`
- - `Viagens`
- - `Seguro`
+Confira nossas telas [aqui!](https://github.com/ioEtep/amaral-guincho-android/raw/master/telas/PDF/amaral-guincho-android.pdf)
 
 
 ![[io.Etep](https://github.com/ioetep)](https://github.com/ioetep.png)
