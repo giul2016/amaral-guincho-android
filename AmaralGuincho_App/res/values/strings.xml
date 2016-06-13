@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AmaralGuincho_App</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="txtLoginTelaLogin"></string>
+    <string name="txtSenhaTelaLogin"></string>
+    <string name="btnEntrarTelaLogin">Entrar</string>
+    <string name="title_activity_tela_home">TelaHome</string>
+    <string name="lblBemVindoTelaHome">Bem Vindo</string>
+    <string name="lblNomeTelaHome">\"------\"</string>
+    <string name="btnOrdemDeServicoTelaHome"></string>
+    <string name="lblDescricaoOrdemDeServicoTelaHome">Consultas Nas Ordens De Serviço</string>
+    <string name="lblOrdemDeServicoTelaHome">Ordem De Servico</string>
+    <string name="btnMotoristaTelaHome"></string>
+    <string name="lblMotoristaTelaHome">Motoristas</string>
+    <string name="lblDescricaoMotoristaTelaHome">Tarefas dos Motoristas</string>
+    <string name="btnClientesTelaHome"></string>
+    <string name="lblClienteTelaHome">Clientes</string>
+    <string name="lblDescricaoClienteTelaHome">Consultas em Clientes Registrados</string>
+    <string name="title_activity_ordem_de_servico">OrdemDeServico</string>
+    <string name="title_activity_consulta_ordem_de_servico">ConsultaOrdemDeServico</string>
+    <string name="title_activity_detalhes_ordem_de_servico">DetalhesOrdemDeServico</string>
+    <string name="lblCodigoTelaConsultaOrdemDeServico">Código</string>
+    <string name="lblDtAberturaTelaConsultaOrdemDeServico">Data de Abertura</string>
+    <string name="lblHoraTelaConsultaOrdemDeServico">Hora</string>
+    <string name="lblOperadorTelaConsultaOrdemDeServico">Operador</string>
+    <string name="lblStatusTelaConsultaOrdemDeServico">Status</string>
+    <string name="lblAgendamentoTelaConsultaOrdemDeServico">Agendamento</string>
+    <string name="lblDataAgendamentoTelaConsultaOrdemDeServico">Data Agendameto</string>
+    <string name="lblHoraAgendamentoTelaConsultaOrdemDeServico">Hora</string>
+    <string name="lblKmRodandoTelaConsultaOrdemDeServico">Km Rodando</string>
+    <string name="lblTotalDeHorasTelaConsultaOrdemDeServico">Total de Horas</string>
+    <string name="lblServicosTelaConsultaOrdemDeServico">Serviços</string>
+    <string name="lblCodigoValorTelaConsultaOrdemDeServico"></string>
+    <string name="lblDataAberturaValorTelaConsultaOrdemDeServico"></string>
+    <string name="lblHoraValorTelaConsultaOrdemDeServico"></string>
+    <string name="lblOperadorValorTelaConsultaOrdemDeServico"></string>
+    <string name="lblStatusValorTelaConsultaOrdemDeServico"></string>
+    <string name="lblAgendamentoValorTelaConsultaOrdemDeServico"></string>
+    <string name="lblDataAgendamentoValorTelaConsultaOrdemDeServico"></string>
+    <string name="lblHoraAgendamentoValorTelaConsultaOrdemDeServico"></string>
+    <string name="lblKmRodandoValorTelaConsultaOrdemDeServico"></string>
+    <string name="lblTotalDeHorasValorTelaConsultaOrdemDeServico"></string>
+    <string name="lblServicosValorTelaConsultaOrdemDeServico"></string>
+    <string name="btnVeiculo"></string>
+    <string name="lblVeiculoTelaDetalhesOrdemDeServico">\"Veiculo\"</string>
+    <string name="lblDetalheVeiculoTelaConsultaOrdemDeServico">Saiba Mais Sobre o Veículo</string>
+    <string name="btnClienteTelaConsultaOrdemDeServico"></string>
+    <string name="lblClienteTelaDetalhesOrdemDeServico">\"Cliente\"</string>
+    <string name="lblDetalheClienteTelaDetalhesOrdemDeServico">Saiba Mais Sobre o Cliente</string>
+    <string name="title_activity_veiculo">Veiculo</string>
+    <string name="lblCodigoTelaVeiculo">Codigo</string>
+    <string name="lblModeloTelaVeiculo">Modelo</string>
+    <string name="lblAnoTelaVeiculo">Ano</string>
+    <string name="lblCorTelaVeiculo">Cor</string>
+    <string name="lblCodigoValorTelaVeiculo"></string>
+    <string name="lblModeloValorTelaVeiculo"></string>
+    <string name="lblAnoValorTelaVeiculo"></string>
+    <string name="lblCorValorTelaVeiculo"></string>
+
+</resources>

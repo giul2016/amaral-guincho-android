@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.amaralguincho_app.Veiculo" >
+
+    <TextView
+        android:id="@+id/lblCodigoTelaVeiculo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/lblCodigoTelaVeiculo" />
+
+    <TextView
+        android:id="@+id/lblModeloTelaVeiculo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lblCodigoTelaVeiculo"
+        android:layout_alignBottom="@+id/lblCodigoTelaVeiculo"
+        android:layout_marginLeft="37dp"
+        android:layout_toRightOf="@+id/lblCodigoTelaVeiculo"
+        android:text="@string/lblModeloTelaVeiculo" />
+
+    <TextView
+        android:id="@+id/lblCodigoValorTelaVeiculo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblCodigoTelaVeiculo"
+        android:layout_below="@+id/lblCodigoTelaVeiculo"
+        android:text="@string/lblCodigoValorTelaVeiculo" />
+
+    <TextView
+        android:id="@+id/lblModeloValorTelaVeiculo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblModeloTelaVeiculo"
+        android:layout_alignTop="@+id/lblCodigoValorTelaVeiculo"
+        android:text="@string/lblModeloValorTelaVeiculo" />
+
+    <TextView
+        android:id="@+id/lblAnoTelaVeiculo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/lblModeloValorTelaVeiculo"
+        android:layout_marginRight="32dp"
+        android:layout_toLeftOf="@+id/lblCorTelaVeiculo"
+        android:text="@string/lblAnoTelaVeiculo" />
+
+    <TextView
+        android:id="@+id/lblCorTelaVeiculo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/lblModeloValorTelaVeiculo"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="48dp"
+        android:text="@string/lblCorTelaVeiculo" />
+
+    <TextView
+        android:id="@+id/lblAnoValorTelaVeiculo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lblModeloValorTelaVeiculo"
+        android:layout_alignBottom="@+id/lblModeloValorTelaVeiculo"
+        android:layout_alignLeft="@+id/lblAnoTelaVeiculo"
+        android:text="@string/lblAnoValorTelaVeiculo" />
+
+    <TextView
+        android:id="@+id/lblCorValorTelaVeiculo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblCorTelaVeiculo"
+        android:layout_toRightOf="@+id/lblAnoTelaVeiculo"
+        android:text="@string/lblCorValorTelaVeiculo" />
+
+</RelativeLayout>
