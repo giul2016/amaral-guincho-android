@@ -77,4 +77,87 @@
         android:layout_toRightOf="@+id/lblAnoTelaVeiculo"
         android:text="@string/lblCorValorTelaVeiculo" />
 
+    <TextView
+        android:id="@+id/lblFabricanteTelaVeiculo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblCodigoValorTelaVeiculo"
+        android:layout_below="@+id/lblCodigoValorTelaVeiculo"
+        android:layout_marginTop="23dp"
+        android:text="@string/lblFabricanteTelaVeiculo" />
+
+    <TextView
+        android:id="@+id/lblSobrenomeClienteTelaCliente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lblFabricanteTelaVeiculo"
+        android:layout_alignBottom="@+id/lblFabricanteTelaVeiculo"
+        android:layout_alignRight="@+id/lblCorTelaVeiculo"
+        android:text="@string/lblPlacaTelaVeiculo" />
+
+    <TextView
+        android:id="@+id/lblFabricanteValorTelaVeiculo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblFabricanteTelaVeiculo"
+        android:layout_below="@+id/lblFabricanteTelaVeiculo"
+        android:text="@string/lblFabricanteValorTelaVeiculo" />
+
+    <TextView
+        android:id="@+id/lblPlacaValorTelaVeiculo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblSobrenomeClienteTelaCliente"
+        android:layout_alignTop="@+id/lblFabricanteValorTelaVeiculo"
+        android:text="@string/lblPlacaValorTelaVeiculo" />
+
+    <Button
+        android:id="@+id/btnClienteTelaVeiculo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/lblCodigoTelaVeiculo"
+        android:layout_centerVertical="true"
+        android:text="@string/btnClienteTelaVeiculo" />
+
+    <TextView
+        android:id="@+id/lblNome2ClienteTelaCliente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btnClienteTelaVeiculo"
+        android:layout_toRightOf="@+id/btnClienteTelaVeiculo"
+        android:text="@string/lblClienteTelaVeiculo" />
+
+    <TextView
+        android:id="@+id/lblDescricaoClienteTelaVeiculo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btnClienteTelaVeiculo"
+        android:layout_alignLeft="@+id/lblNome2ClienteTelaCliente"
+        android:text="@string/lblDescricaoClienteTelaVeiculo" />
+
+    <Button
+        android:id="@+id/btnServicosPrestadosTelaVeiculo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/btnClienteTelaVeiculo"
+        android:layout_below="@+id/btnClienteTelaVeiculo"
+        android:layout_marginTop="31dp"
+        android:text="@string/btnServicosPrestadosTelaVeiculo" />
+
+    <TextView
+        android:id="@+id/lblServicosPrestadosTelaVeiculos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblDescricaoClienteTelaVeiculo"
+        android:layout_alignTop="@+id/btnServicosPrestadosTelaVeiculo"
+        android:text="@string/lblServicosPrestadosTelaVeiculos" />
+
+    <TextView
+        android:id="@+id/lblDescricaoServicosPrestadosTelaVeiculos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btnServicosPrestadosTelaVeiculo"
+        android:layout_alignLeft="@+id/lblServicosPrestadosTelaVeiculos"
+        android:text="@string/lblDescricaoServicosPrestadosTelaVeiculos" />
+
 </RelativeLayout>

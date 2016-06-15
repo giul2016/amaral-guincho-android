@@ -1,0 +1,170 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.amaralguincho_app.TelaCliente" >
+
+    <ImageView
+        android:id="@+id/imgFotoFuncionarioTelaFuncionario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/lblSobrenomeClienteTelaCliente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imgFotoFuncionarioTelaFuncionario"
+        android:layout_toRightOf="@+id/imgFotoFuncionarioTelaFuncionario"
+        android:text="@string/lblSobrenomeClienteTelaCliente" />
+
+    <TextView
+        android:id="@+id/lblNomeClienteTelaCliente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imgFotoFuncionarioTelaFuncionario"
+        android:layout_alignLeft="@+id/lblSobrenomeClienteTelaCliente"
+        android:text="@string/lblNomeClienteTelaCliente"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/lblSobrenomeFuncionarioTelaFuncionario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgFotoFuncionarioTelaFuncionario"
+        android:layout_marginTop="56dp"
+        android:layout_toLeftOf="@+id/lblNomeClienteTelaCliente"
+        android:text="@string/lblCodigoClienteTelaCliente" />
+
+    <EditText
+        android:id="@+id/txtCodigoClienteTelaCliente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/lblSobrenomeFuncionarioTelaFuncionario"
+        android:layout_below="@+id/lblSobrenomeFuncionarioTelaFuncionario"
+        android:ems="10"
+        android:text="@string/txtCodigoClienteTelaCliente" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/lblNome2ClienteTelaCliente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtCodigoClienteTelaCliente"
+        android:layout_alignLeft="@+id/lblNomeClienteTelaCliente"
+        android:layout_marginLeft="26dp"
+        android:text="@string/lblNome2ClienteTelaCliente" />
+
+    <EditText
+        android:id="@+id/txtNomeClienteTelaCliente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtCodigoClienteTelaCliente"
+        android:layout_alignBottom="@+id/txtCodigoClienteTelaCliente"
+        android:layout_alignLeft="@+id/lblNome2ClienteTelaCliente"
+        android:layout_alignRight="@+id/lblSobrenomeClienteTelaCliente"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/lblSobrenome2ClienteTelaCliente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtNomeClienteTelaCliente"
+        android:layout_toRightOf="@+id/txtNomeClienteTelaCliente"
+        android:text="@string/lblSobrenome2ClienteTelaCliente" />
+
+    <EditText
+        android:id="@+id/txtSobrenomeClienteTelaCliente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtNomeClienteTelaCliente"
+        android:layout_alignBottom="@+id/txtNomeClienteTelaCliente"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/lblNomeClienteTelaCliente"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/txtSexoClienteTelaCliente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/txtCodigoClienteTelaCliente"
+        android:layout_below="@+id/lblSexoClienteTelaCliente"
+        android:ems="10"
+        android:text="@string/txtSexoClienteTelaCliente" />
+
+    <TextView
+        android:id="@+id/lblSexoClienteTelaCliente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtSexoClienteTelaCliente"
+        android:layout_below="@+id/txtCodigoClienteTelaCliente"
+        android:layout_marginTop="20dp"
+        android:text="@string/lblSexoClienteTelaCliente" />
+
+    <TextView
+        android:id="@+id/lblDataNascimentoClienteTelaCliente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtSexoClienteTelaCliente"
+        android:layout_alignLeft="@+id/txtNomeClienteTelaCliente"
+        android:text="@string/lblDataNascimentoClienteTelaCliente" />
+
+    <EditText
+        android:id="@+id/txtDataNascimentoClienteTelaCliente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblDataNascimentoClienteTelaCliente"
+        android:layout_alignRight="@+id/lblDataNascimentoClienteTelaCliente"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:text="@string/txtDataNascimentoClienteTelaCliente" />
+
+    <TextView
+        android:id="@+id/lblCpfClienteTelaCliente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblSobrenomeFuncionarioTelaFuncionario"
+        android:layout_below="@+id/txtDataNascimentoClienteTelaCliente"
+        android:layout_marginTop="32dp"
+        android:text="@string/lblCpfClienteTelaCliente" />
+
+    <EditText
+        android:id="@+id/txtCpfClienteTelaCliente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/txtNomeClienteTelaCliente"
+        android:layout_below="@+id/lblCpfClienteTelaCliente"
+        android:ems="10"
+        android:text="@string/txtCpfClienteTelaCliente" />
+
+    <TextView
+        android:id="@+id/lblEmailClienteTelaCliente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblCpfClienteTelaCliente"
+        android:layout_below="@+id/txtCpfClienteTelaCliente"
+        android:layout_marginTop="39dp"
+        android:text="@string/lblEmailClienteTelaCliente" />
+
+    <EditText
+        android:id="@+id/txtEmailClienteTelaCliente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/txtCpfClienteTelaCliente"
+        android:layout_below="@+id/lblEmailClienteTelaCliente"
+        android:ems="10"
+        android:text="@string/txtEmailClienteTelaCliente" />
+
+</RelativeLayout>

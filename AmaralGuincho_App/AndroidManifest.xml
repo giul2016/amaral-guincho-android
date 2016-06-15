@@ -44,6 +44,30 @@
             android:name=".Veiculo"
             android:label="@string/title_activity_veiculo" >
         </activity>
+        <activity
+            android:name=".ServicosPrestados"
+            android:label="@string/title_activity_servicos_prestados" >
+        </activity>
+        <activity
+            android:name=".TelaCliente"
+            android:label="@string/title_activity_tela_cliente" >
+        </activity>
+        <activity
+            android:name=".TelaFuncionario"
+            android:label="@string/title_activity_tela_funcionaro" >
+        </activity>
+        <activity
+            android:name=".Habilitacao"
+            android:label="@string/title_activity_habilitacao" >
+        </activity>
+        <activity
+            android:name=".TelaFrota"
+            android:label="@string/title_activity_tela_frota" >
+        </activity>
+        <activity
+            android:name=".ListaFrota"
+            android:label="@string/title_activity_lista_frota" >
+        </activity>
     </application>
 
 </manifest>

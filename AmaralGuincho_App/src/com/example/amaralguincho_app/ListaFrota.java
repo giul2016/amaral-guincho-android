@@ -5,18 +5,18 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class DetalhesOrdemDeServico extends Activity {
+public class ListaFrota extends Activity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_detalhes_ordem_de_servico);
+		setContentView(R.layout.activity_lista_frota);
 	}
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.detalhes_ordem_de_servico, menu);
+		getMenuInflater().inflate(R.menu.lista_frota, menu);
 		return true;
 	}
 

@@ -1,0 +1,134 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.amaralguincho_app.TelaFrota" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/lblTipoFrotaTelaFrota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_toRightOf="@+id/imageView1"
+        android:text="@string/lblTipoFrotaTelaFrota" />
+
+    <TextView
+        android:id="@+id/lblNomeFrotaTelaFrota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView1"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/imageView1"
+        android:text="@string/lblNomeFrotaTelaFrota"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/lblCodigoFrotaTelaFrota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginTop="48dp"
+        android:text="@string/lblCodigoFrotaTelaFrota" />
+
+    <EditText
+        android:id="@+id/txtCodigoFrotaTelaFrota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/lblCodigoFrotaTelaFrota"
+        android:layout_below="@+id/lblCodigoFrotaTelaFrota"
+        android:ems="10"
+        android:text="@string/txtCodigoFrotaTelaFrota" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/lblModeloFrotaTelaFrota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lblCodigoFrotaTelaFrota"
+        android:layout_alignBottom="@+id/lblCodigoFrotaTelaFrota"
+        android:layout_alignRight="@+id/lblTipoFrotaTelaFrota"
+        android:text="@string/lblModeloFrotaTelaFrota" />
+
+    <EditText
+        android:id="@+id/txtModeloFrotaTelaFrota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtCodigoFrotaTelaFrota"
+        android:layout_alignBottom="@+id/txtCodigoFrotaTelaFrota"
+        android:layout_alignLeft="@+id/lblModeloFrotaTelaFrota"
+        android:layout_alignRight="@+id/lblNomeFrotaTelaFrota"
+        android:ems="10"
+        android:text="@string/txtModeloFrotaTelaFrota" />
+
+    <TextView
+        android:id="@+id/lblAnoFrotaTelaFrota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtModeloFrotaTelaFrota"
+        android:layout_marginLeft="16dp"
+        android:layout_toRightOf="@+id/txtModeloFrotaTelaFrota"
+        android:text="@string/lblAnoFrotaTelaFrota" />
+
+    <EditText
+        android:id="@+id/txtAnoFrotaTelaFrota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtModeloFrotaTelaFrota"
+        android:layout_alignBottom="@+id/txtModeloFrotaTelaFrota"
+        android:layout_alignLeft="@+id/lblAnoFrotaTelaFrota"
+        android:ems="10"
+        android:text="@string/txtAnoFrotaTelaFrota" />
+
+    <EditText
+        android:id="@+id/txtFabricanteFrotaTelaFrota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/lblModeloFrotaTelaFrota"
+        android:layout_below="@+id/lblFabricanteFrotaTelaFrota"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/lblFabricanteFrotaTelaFrota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtCodigoFrotaTelaFrota"
+        android:layout_marginTop="39dp"
+        android:layout_toLeftOf="@+id/txtModeloFrotaTelaFrota"
+        android:text="@string/lblFabricanteFrotaTelaFrota" />
+
+    <EditText
+        android:id="@+id/txtPlacaFrotaTelaFrota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtFabricanteFrotaTelaFrota"
+        android:layout_alignBottom="@+id/txtFabricanteFrotaTelaFrota"
+        android:layout_alignLeft="@+id/lblPlacaFrotaTelaFrota"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/lblPlacaFrotaTelaFrota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lblFabricanteFrotaTelaFrota"
+        android:layout_alignBottom="@+id/lblFabricanteFrotaTelaFrota"
+        android:layout_marginLeft="42dp"
+        android:layout_toRightOf="@+id/txtFabricanteFrotaTelaFrota"
+        android:text="@string/lblPlacaFrotaTelaFrota" />
+
+</RelativeLayout>

@@ -1,6 +1,7 @@
 package com.example.amaralguincho_app;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -9,8 +10,8 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class TelaHome extends Activity implements OnClickListener{
-	
+public class TelaHome extends Activity implements OnClickListener {
+
 	Button btnOrdemDeServico, btnMotorista, btnClientes;
 	TextView lblNome;
 
@@ -18,12 +19,12 @@ public class TelaHome extends Activity implements OnClickListener{
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_tela_home);
-		
+
 		btnClientes = (Button) findViewById(R.id.btnClientesTelaHome);
 		btnMotorista = (Button) findViewById(R.id.btnMotoristaTelaHome);
 		btnOrdemDeServico = (Button) findViewById(R.id.btnOrdemDeServicoTelaHome);
 		lblNome = (TextView) findViewById(R.id.lblNomeTelaHome);
-		
+
 		btnClientes.setOnClickListener(this);
 		btnMotorista.setOnClickListener(this);
 		btnOrdemDeServico.setOnClickListener(this);
@@ -52,6 +53,19 @@ public class TelaHome extends Activity implements OnClickListener{
 	@Override
 	public void onClick(View v) {
 		// TODO Auto-generated method stub
-		
+
+		switch (v.getId()) {
+		case R.id.btnClientesTelaHome:
+			Intent tela = new Intent(this, TelaCliente.class);
+			startActivity(tela);
+			break;
+
+		case R.id.btnMotoristaTelaHome:
+			Intent tela2 = new Intent(this, TelaFuncionario.class);
+			startActivity(tela2);
+			break;
+
+		}
+
 	}
 }

@@ -1,0 +1,146 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.amaralguincho_app.Habilitacao" >
+
+    <ImageView
+        android:id="@+id/imgMotoristaTelaHabilitacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/lblNome1MotoristaTelaHabilitacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imgMotoristaTelaHabilitacao"
+        android:layout_toRightOf="@+id/imgMotoristaTelaHabilitacao"
+        android:text="@string/lblSobrenomeTelaHabilitacao" />
+
+    <TextView
+        android:id="@+id/lblNomeMotoristaTelaHabilitacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imgMotoristaTelaHabilitacao"
+        android:layout_toRightOf="@+id/imgMotoristaTelaHabilitacao"
+        android:text="@string/lblNomeTelaHabilitacao"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/lblTipoFrotaTelaFrota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imgMotoristaTelaHabilitacao"
+        android:layout_marginTop="60dp"
+        android:text="@string/lblNomeHabilitacaoTelaHabilitacao" />
+
+    <EditText
+        android:id="@+id/txtCodigoFrotaTelaFrota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/lblTipoFrotaTelaFrota"
+        android:ems="10"
+        android:text="@string/txtNomeHabilitacaoTelaHabilitacao" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/txtIdentidadeTelaHabilitacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:text="@string/txtIdentidadeTelaHabilitacao" />
+
+    <TextView
+        android:id="@+id/lblNumeroRegistroTelaHabilitacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtIdentidadeTelaHabilitacao"
+        android:layout_below="@+id/txtIdentidadeTelaHabilitacao"
+        android:layout_marginTop="16dp"
+        android:text="@string/lblNumeroRegistroTelaHabilitacao" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtIdentidadeTelaHabilitacao"
+        android:layout_alignLeft="@+id/txtIdentidadeTelaHabilitacao"
+        android:text="@string/lblIdentidadeTelaHabilitacao" />
+
+    <EditText
+        android:id="@+id/txtNumeroRegistroHabilitacaoTelaHabilitacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblNumeroRegistroTelaHabilitacao"
+        android:layout_below="@+id/lblNumeroRegistroTelaHabilitacao"
+        android:ems="10"
+        android:text="@string/txtNumeroRegistroHabilitacaoTelaHabilitacao" />
+
+    <TextView
+        android:id="@+id/lblValidadeRegistroTelaHabilitacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtNumeroRegistroHabilitacaoTelaHabilitacao"
+        android:layout_below="@+id/txtNumeroRegistroHabilitacaoTelaHabilitacao"
+        android:layout_marginTop="17dp"
+        android:text="@string/lblValidadeRegistroTelaHabilitacao" />
+
+    <EditText
+        android:id="@+id/txtValidadeHabilitacaoTelaHabilitacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_below="@+id/lblValidadeRegistroTelaHabilitacao"
+        android:ems="10"
+        android:text="@string/txtValidadeHabilitacaoTelaHabilitacao" />
+
+    <TextView
+        android:id="@+id/lblLocalGeradoTelaHabilitacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtValidadeHabilitacaoTelaHabilitacao"
+        android:layout_centerHorizontal="true"
+        android:text="@string/lblLocalGeradoTelaHabilitacao" />
+
+    <EditText
+        android:id="@+id/txtLocalGeradoHabilitacaoTelaHabilitacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtValidadeHabilitacaoTelaHabilitacao"
+        android:layout_alignBottom="@+id/txtValidadeHabilitacaoTelaHabilitacao"
+        android:layout_alignLeft="@+id/lblLocalGeradoTelaHabilitacao"
+        android:ems="10"
+        android:text="@string/txtLocalGeradoHabilitacaoTelaHabilitacao" />
+
+    <TextView
+        android:id="@+id/lblEmissaoTelaHabilitacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtValidadeHabilitacaoTelaHabilitacao"
+        android:layout_below="@+id/txtValidadeHabilitacaoTelaHabilitacao"
+        android:text="@string/lblEmissaoTelaHabilitacao" />
+
+    <EditText
+        android:id="@+id/txtEmissaoHabilitacaoTelaHabilitacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/lblEmissaoTelaHabilitacao"
+        android:ems="10"
+        android:text="@string/txtEmissaoHabilitacaoTelaHabilitacao" />
+
+</RelativeLayout>

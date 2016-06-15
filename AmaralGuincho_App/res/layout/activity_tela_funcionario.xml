@@ -1,0 +1,228 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.amaralguincho_app.TelaFuncionario" >
+
+    <ImageView
+        android:id="@+id/imgFotoFuncionarioTelaFuncionario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/lblSobrenomeFuncionarioTelaFuncionario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imgFotoFuncionarioTelaFuncionario"
+        android:layout_toRightOf="@+id/imgFotoFuncionarioTelaFuncionario"
+        android:text="@string/lblSobrenomeFuncionarioTelaFuncionario" />
+
+    <TextView
+        android:id="@+id/lblNome1MotoristaTelaHabilitacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblSobrenomeFuncionarioTelaFuncionario"
+        android:layout_below="@+id/lblSobrenomeFuncionarioTelaFuncionario"
+        android:text="@string/lblNomeFuncionarioTelaFuncionario"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/btnHabilitacaoTelaFuncionario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/imgFotoFuncionarioTelaFuncionario"
+        android:layout_below="@+id/imgFotoFuncionarioTelaFuncionario"
+        android:text="@string/btnHabilitacaoTelaFuncionario" />
+
+    <TextView
+        android:id="@+id/lblHabilitacaoTelaFuncionario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnHabilitacaoTelaFuncionario"
+        android:layout_alignBottom="@+id/btnHabilitacaoTelaFuncionario"
+        android:layout_alignLeft="@+id/lblNome1MotoristaTelaHabilitacao"
+        android:text="@string/lblHabilitacaoTelaFuncionario"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/lblCodigoTelaFuncionario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btnHabilitacaoTelaFuncionario"
+        android:layout_marginTop="24dp"
+        android:text="@string/lblCodigoTelaFuncionario" />
+
+    <TextView
+        android:id="@+id/lblSexoTelaFuncionario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblCodigoTelaFuncionario"
+        android:layout_below="@+id/lblCodigoTelaFuncionario"
+        android:layout_marginTop="45dp"
+        android:text="@string/lblSexoTelaFuncionario" />
+
+    <TextView
+        android:id="@+id/lblDataNascimentoTelaFuncionario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lblSexoTelaFuncionario"
+        android:layout_alignBottom="@+id/lblSexoTelaFuncionario"
+        android:layout_alignLeft="@+id/lblNome2TelaFuncionario"
+        android:text="@string/lblDataNascimentoTelaFuncionario" />
+
+    <TextView
+        android:id="@+id/lblCpfTelaFuncionario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblSexoTelaFuncionario"
+        android:layout_below="@+id/lblSexoTelaFuncionario"
+        android:layout_marginTop="47dp"
+        android:text="@string/lblCpfTelaFuncionario" />
+
+    <TextView
+        android:id="@+id/lblEmailTelaFuncionario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblCpfTelaFuncionario"
+        android:layout_below="@+id/lblCpfTelaFuncionario"
+        android:layout_marginTop="48dp"
+        android:text="@string/lblEmailTelaFuncionario" />
+
+    <TextView
+        android:id="@+id/lblResedenciaTelaFuncionario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblEmailTelaFuncionario"
+        android:layout_below="@+id/lblEmailTelaFuncionario"
+        android:layout_marginTop="39dp"
+        android:text="@string/lblResedenciaTelaFuncionario" />
+
+    <EditText
+        android:id="@+id/txtCodigoTelaFuncionario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/btnHabilitacaoTelaFuncionario"
+        android:layout_below="@+id/lblCodigoTelaFuncionario"
+        android:ems="10"
+        android:text="@string/txtCodigoTelaFuncionario" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/txtNomeTelaFuncionario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtCodigoTelaFuncionario"
+        android:layout_alignBottom="@+id/txtCodigoTelaFuncionario"
+        android:layout_alignRight="@+id/lblSobrenomeFuncionarioTelaFuncionario"
+        android:layout_toRightOf="@+id/lblResedenciaTelaFuncionario"
+        android:ems="10"
+        android:text="@string/txtNomeTelaFuncionario" />
+
+    <EditText
+        android:id="@+id/txtSobrenomeTelaFuncionario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtNomeTelaFuncionario"
+        android:layout_alignBottom="@+id/txtNomeTelaFuncionario"
+        android:layout_alignLeft="@+id/textView2"
+        android:ems="10"
+        android:text="@string/txtSobrenomeTelaFuncionario" />
+
+    <EditText
+        android:id="@+id/txtSexoTelaFuncionario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/lblSexoTelaFuncionario"
+        android:layout_below="@+id/lblSexoTelaFuncionario"
+        android:ems="10"
+        android:text="@string/txtSexoTelaFuncionario" />
+
+    <EditText
+        android:id="@+id/txtDataNascimentoTelaFuncionario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtSexoTelaFuncionario"
+        android:layout_alignBottom="@+id/txtSexoTelaFuncionario"
+        android:layout_alignLeft="@+id/lblDataNascimentoTelaFuncionario"
+        android:layout_alignRight="@+id/textView2"
+        android:ems="10"
+        android:text="@string/txtDataNascimentoTelaFuncionario" />
+
+    <TextView
+        android:id="@+id/lblNumeroRegistroTelaHabilitacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/lblEmailTelaFuncionario"
+        android:layout_alignRight="@+id/lblDataNascimentoTelaFuncionario"
+        android:text="@string/lblTelefoneTelaFuncionario" />
+
+    <TextView
+        android:id="@+id/lblNome2TelaFuncionario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtNomeTelaFuncionario"
+        android:layout_alignRight="@+id/txtNomeTelaFuncionario"
+        android:text="@string/lblNome2TelaFuncionario" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtSobrenomeTelaFuncionario"
+        android:layout_alignLeft="@+id/lblNumeroRegistroTelaHabilitacao"
+        android:text="@string/lblSobrenome2TelaFuncionario" />
+
+    <EditText
+        android:id="@+id/txtCpfTelaFuncionario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/lblHabilitacaoTelaFuncionario"
+        android:layout_below="@+id/lblCpfTelaFuncionario"
+        android:ems="10"
+        android:text="@string/txtCpfTelaFuncionario" />
+
+    <EditText
+        android:id="@+id/txtTelefoneTelaFuncionario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtCpfTelaFuncionario"
+        android:layout_alignBottom="@+id/txtCpfTelaFuncionario"
+        android:layout_alignLeft="@+id/lblNumeroRegistroTelaHabilitacao"
+        android:ems="10"
+        android:text="@string/txtTelefoneTelaFuncionario" />
+
+    <EditText
+        android:id="@+id/txtEmailTelaFuncionario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblEmailTelaFuncionario"
+        android:layout_alignRight="@+id/txtResidenciaTelaFuncionario"
+        android:layout_below="@+id/lblEmailTelaFuncionario"
+        android:ems="10"
+        android:text="@string/txtEmailTelaFuncionario" />
+
+    <EditText
+        android:id="@+id/txtResidenciaTelaFuncionario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblResedenciaTelaFuncionario"
+        android:layout_alignRight="@+id/txtTelefoneTelaFuncionario"
+        android:layout_below="@+id/lblResedenciaTelaFuncionario"
+        android:ems="10"
+        android:text="@string/txtResidenciaTelaFuncionario" />
+
+</RelativeLayout>
